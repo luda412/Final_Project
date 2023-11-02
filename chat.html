@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./chat.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+    </style>
+    <title>기억의 산책</title>
+</head>
+
+<script>
+</script>
+
+<body>
+  <div class="container" id="chat-container">
+    <div class="chat-header">
+      <h1>D i a r y</h1>
+    </div>
+    <div class="chat-box" id="chat-box">
+      <ul class="messages" id="chat-messages">
+        <!-- 메시지들이 여기에 동적으로 추가될 것입니다. -->
+      </ul>
+    </div>
+    <form class="chat-form" id="chat-form">
+      <input type="text" id="user-input" />
+      <button type="submit" id="submit-button">Send</button>
+    </form>
+  </div>
+
+  <div class="button-container">
+    <button id="new-window-button">감정<br>분석</button>
+  </div>
+
+  <!--여기는 서버로 보내는 역할-->
+  <form class="chat-form" id="database-form" method="post" action="chat_server.php">
+    <!-- 사용자 입력 필드 -->
+    <input type="hidden" name="userInputArray" id="userInputArray" value="">
+    
+    <!-- 질문과 대답 저장 필드 -->
+    <input type="hidden" name="questions" id="questions" value="">
+  
+    <!-- 다음과 같이 각 대답을 입력 필드로 추가합니다. -->
+    <!-- <input type="hidden" name="answer1" id="answer1" /> -->
+    <input type="hidden" name="date" id="date" />
+
+    <input type="hidden" name="answer1" id="answer1" />
+    <input type="hidden" name="answer2" id="answer2" />
+    <input type="hidden" name="answer3" id="answer3" />
+    <input type="hidden" name="answer4" id="answer4" />
+    <input type="hidden" name="answer5" id="answer5" />
+    <input type="hidden" name="answer6" id="answer6" />
+    <input type="hidden" name="answer7" id="answer7" />
+    <input type="hidden" name="answer8" id="answer8" />
+    <input type="hidden" name="answer9" id="answer9" />
+
+    <input type="hidden" name="question1" id="question1" />
+    <input type="hidden" name="question2" id="question2" />
+    <input type="hidden" name="question3" id="question3" />
+    <input type="hidden" name="question4" id="question4" />
+    <input type="hidden" name="question5" id="question5" />
+    <input type="hidden" name="question6" id="question6" />
+    <input type="hidden" name="question7" id="question7" />
+    <input type="hidden" name="question8" id="question8" />
+    <input type="hidden" name="question9" id="question9" />
+    <!-- ... 다른 대답 필드들 ... -->
+
+    <input type="hidden" name="resultHtml" id="resultHtml" value="">
+
+    <!-- <input type="hidden" name="resultHtml" id="hidden-input" value=""> -->
+  
+    <!-- 대화가 종료되었을 때 데이터를 서버로 보내는 버튼 -->
+    <button type="submit" id="database-submit-button">저장</button>
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="./chat.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,165 @@
+* table {
+border-collapse: seperate;
+border-spacing: 10px;
+width: 100%;
+/* font-family: Arial, sans-serif; */
+font-family: 'Roboto Condensed', sans-serif;
+/* font-family: 'Lobster',cursive; */
+background-color: #fdfbfd;
+border: none;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+}
+
+/* 테이블 헤더 스타일 */
+th {
+    background-color: #dca5d0;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    color: #423d40;
+    text-transform: uppercase;
+    font-size: 24px;
+    border-radius: 10px;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* 테이블 셀 스타일 */
+td {
+    font-family: 'Dosis', sans-serif;
+    height: 80px;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #555;
+    font-size: 20px;
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+td {
+  vertical-align: top;
+  line-height: 1;
+}
+
+/* 오늘 날짜 셀 스타일 */
+td.today {
+    background-color: #f8daf7;
+    font-weight: bold;
+}
+
+/* 일요일 스타일 */
+td:first-child {
+    color: #ff6666;
+    font-weight: bold;
+}
+
+/* 토요일 스타일 */
+td:last-child {
+    color: #6699ff;
+    font-weight: bold;
+}
+
+/* 마우스 호버 시 셀 배경색 변경 */
+td:hover {
+    background-color: #c4bfee;
+}
+
+/* 이벤트 표시 스타일 */
+.event {
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+}
+
+/* 주말 셀 스타일 */
+td.weekend {
+    background-color: #ac19d4;
+}
+
+/* 선택된 날짜 셀 스타일 */
+td.selected {
+    background-color: #f1f2f3;
+    color: rgb(236, 27, 166);
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* 캘린더 제목 스타일 */
+h2 {
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ae4d9f;
+}
+
+/* 버튼 스타일 */
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4e80ca;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+}
+
+/* 버튼 마우스 호버 시 스타일 변경 */
+button:hover {
+    background-color: #c18962;
+}
+
+#prevMonthBtn {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: #FF0000;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-family: 'Dosis', sans-serif;
+}
+
+#prevMonthBtn:hover {
+    color: #7c6ec8;
+}
+
+#nextMonthBtn {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color:#0000FF ;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-family: 'Dosis', sans-serif;
+}
+
+#nextMonthBtn:hover {
+    color: #52d6bc;
+}
+
+/* 버튼 아이콘 스타일 */
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+.canvas {
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+  }
+  .chat-header h1 {
+    font-family: 'Dosis', sans-serif;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FEFEFE;
+  }
+/*#abc1d1 카톡배경*/
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .chat-header h1 {
+    margin: 0;
+  }
+
+  .chat-box {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    /* border: 1px solid #ddd; */
+    border-radius: 5px;
+    position: relative;
+    background-color: #FEFEFE;
+  }
+
+  .messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .message {
+    margin-bottom: 10px;
+  }
+
+  .message-left .message-text {
+    border-radius: 5px;
+    padding: 10px;
+    float: left;
+    clear: both;
+    margin-bottom: 10px;
+  }
+
+  .message-right .message-text {
+    background-color: #2ecc71;
+    /* color: #fff; */
+    border-radius: 5px;
+    padding: 10px;
+    float: right;
+    clear: both;
+    margin-bottom: 10px;
+  }
+
+  .message-medium {
+    display: flex;
+    justify-content: center; /* 수평 가운데 정렬 */
+    align-items: center; /* 수직 가운데 정렬 */
+  }
+
+  .chat-form {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .chat-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ddd;
+    outline: none;
+    background-color: #f1f0f0;
+  }
+
+  .chat-form button[type="submit"] {
+    padding: 10px;
+    border: none;
+    background-color: #f1f0f0;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-family: 'Dosis', sans-serif;
+  }
+
+  .chat-form button[type="submit"]:hover {
+    background-color: #27ae60;
+  }
+
+  #database-submit-button {
+    position: absolute;
+    top: calc(2%); /* 증가할수록 화면 아래로 감*/
+    left: 89%;/*증가할 수록 화면상의 오른쪽으로*/
+    transform: translateX(-50%);
+  }
+
+  #new-window-button{
+    position: absolute;
+    top: calc(99%); /* 증가할수록 화면 아래로 감*/
+    left: 13%;/*증가할 수록 화면상의 오른쪽으로*/
+    transform: translateX(-50%);
+    font-weight: bold;
+    padding: 1px;
+    border: none;
+    background-color: #ffffff;
+    color: #ffffff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
