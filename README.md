@@ -61,44 +61,23 @@
 
 ## 🖼️ Wire Frame
 
-<img
-  src="https://ifh.cc/g/HX8fMZ.png"
-  width="600"
-  height="350"
-/>
-
+<img width="1253" height="652" alt="Image" src="https://github.com/user-attachments/assets/b3e5eb55-c8ec-4dac-af7a-454fe915db0b" />
 ## 🎞️ demo 추가
 
 아이폰으로 화면 녹화하여 영상 첨부
 
 ## ⭐️ 주요 기능
 
-<img
-  src="https://ifh.cc/g/bNPZYa.jpg"
-  width="200"
-  height="350"
-/>
+<img width="212" height="416" alt="Image" src="https://github.com/user-attachments/assets/6458b31c-23e5-4a00-8eee-864058ef6bb3" />
 <em>1. 메인 페이지</em>
 
-<img
-  src="https://ifh.cc/g/rhXAGR.jpg"
-  width="200"
-  height="350"
-/>
+<img width="206" height="413" alt="Image" src="https://github.com/user-attachments/assets/134b2204-b38c-41e2-98ad-f240dadb0b71" />
 <em>2. 채팅 기록 페이지</em>
 
-<img
-  src="https://ifh.cc/g/84Llgx.jpg"
-  width="200"
-  height="350"
-/>
+<img width="226" height="447" alt="Image" src="https://github.com/user-attachments/assets/67420f7a-1e59-4d4a-b42e-4c8dcc4b13a9" />
 <em>3. 감정 추출 결과 및 문화 콘텐츠 연계</em>
 
-<img
-  src="https://ifh.cc/g/lHldgY.jpg"
-  width="200"
-  height="350"
-/>
+<img width="222" height="446" alt="Image" src="https://github.com/user-attachments/assets/f0702561-bf65-4165-a191-ef5ec2ffe2c0" />
 <em>4. 과거 기록 열람 페이지</em>
 
 ### 1. 메인 페이지
