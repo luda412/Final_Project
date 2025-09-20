@@ -1,10 +1,5 @@
 <center>
-<img
-  src="https://ifh.cc/g/ptZsSM.png"
-  width="150"
-  height="200"
-/>
-
+<img width="212" height="414" alt="Image" src="https://github.com/user-attachments/assets/7e808104-9562-42b0-80a2-2ae30f86c80a" />
 </center>
 
 # 기억의 산책
