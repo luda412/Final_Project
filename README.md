@@ -28,9 +28,6 @@
 ## 🖼️ Wire Frame
 
 <img width="1253" height="652" alt="Image" src="https://github.com/user-attachments/assets/b3e5eb55-c8ec-4dac-af7a-454fe915db0b" />
-## 🎞️ demo 추가
-
-아이폰으로 화면 녹화하여 영상 첨부
 
 ## ⭐️ 주요 기능
 
